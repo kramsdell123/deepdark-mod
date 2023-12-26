@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "deepdark:item/warden_pickaxe_anim"
+    }
+}

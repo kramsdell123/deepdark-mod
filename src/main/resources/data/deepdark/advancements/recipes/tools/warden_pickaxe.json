@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_warden_scales": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "deepdark:deactivated_warden_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "deepdark:warden_pickaxe"
+        ]
+    }
+}

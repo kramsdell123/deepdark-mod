@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "deactivated_warden_axe",
+    "pattern": [
+        "## ",
+        "#/ ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "deepdark:warden_scales"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "deepdark:deactivated_warden_axe",
+        "count": 1
+    }
+}

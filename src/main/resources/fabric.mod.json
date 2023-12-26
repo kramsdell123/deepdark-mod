@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "deepdark",
+	"version": "1.0.0",
+	"name": "Deep Dark Dimension",
+	"description": ":)",
+	"authors": [
+		"kramsdell"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT Liscence",
+	"icon": "assets/deepdark/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.deepdark.deepdark"
+		],
+		"client": [
+			"com.deepdark.deepdarkClient"
+		],
+		"fabric-datagen": [
+			"com.deepdark.deepdarkDataGenerator"
+		]
+	},
+	"mixins": [
+		"deepdark.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

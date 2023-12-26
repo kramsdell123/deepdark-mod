@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_pickaxe",
+    "pattern": [
+        "DID",
+        "IPI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "I": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "P": {
+            "item": "deepdark:deactivated_warden_pickaxe"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_pickaxe",
+        "count": 1
+    }
+}
