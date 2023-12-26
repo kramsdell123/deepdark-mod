@@ -1,1 +1,1 @@
-"# deepdark-mod" 
+This is my unfinished Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the license.

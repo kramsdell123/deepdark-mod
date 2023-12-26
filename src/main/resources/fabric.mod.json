@@ -8,10 +8,9 @@
 		"kramsdell"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/kramsdell123/deepdark-mod"
 	},
-	"license": "MIT Liscence",
+	"license": "MIT Licence",
 	"icon": "assets/deepdark/icon.png",
 	"environment": "*",
 	"entrypoints": {
