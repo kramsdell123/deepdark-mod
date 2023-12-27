@@ -16,7 +16,10 @@ This is unfinished, there is a lot of vanilla textures for placeholders, and a b
 
 * Craft some deactivated tools with warden scales you mine.
 
-* Activate your tools like this (I have cooked chicken as a placeholder for the warden's heart, whick is not obtainable yet):
+* Activate your tools like this (I have cooked chicken as a placeholder for the warden's heart, which is not obtainable yet):
+
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/warden_pickaxe.png)
+
 or this:
+
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/warden_axe.png)
