@@ -6,12 +6,26 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "deepdark:warden_scales"
-                    }
+                        "items": [
+                            "deepdark:warden_scales"
+                        ]
+                    }  
                 ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "deepdark:deactivated_warden_pickaxe"
             }
         }
     },
+    "requirements": [
+        [
+            "has_warden_scales",
+            "has_recipe"
+        ]
+    ],
     "rewards": {
         "recipes": [
             "deepdark:deactivated_warden_pickaxe",
