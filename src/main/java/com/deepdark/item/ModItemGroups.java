@@ -30,7 +30,6 @@ public class ModItemGroups {
         entries.add(ModItems.warden_leggings);
         entries.add(ModItems.warden_boots);
         entries.add(ModBlocks.warden_ore);
-        entries.add(ModBlocks.deepslate_warden_ore);
     }).build());
     public static void registerItemGroups() {
         deepdark.LOGGER.info("Registered Item Groups");

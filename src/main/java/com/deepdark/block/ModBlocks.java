@@ -17,8 +17,6 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     public static final Block warden_ore = registerBlock("warden_ore",
         new ExperienceDroppingBlock(UniformIntProvider.create(5, 10), FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(30f, 30f)));
-    public static final Block deepslate_warden_ore = registerBlock("deepslate_warden_ore",
-        new ExperienceDroppingBlock(UniformIntProvider.create(6, 11), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).strength(45f, 30f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

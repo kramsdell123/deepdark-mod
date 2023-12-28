@@ -23,11 +23,9 @@ public class ModConfiguredFeatures {
 
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> warden_ores =
-            List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.warden_ore.getDefaultState()),
-                OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.deepslate_warden_ore.getDefaultState()));
+            List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.warden_ore.getDefaultState()));
         register(context, warden_ore_key, Feature.ORE, new OreFeatureConfig(warden_ores, 6));
     }
     

@@ -25,7 +25,6 @@ public class deepdark implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
 
-
 		CustomPortalBuilder.beginPortal()
 			.frameBlock(Blocks.REINFORCED_DEEPSLATE)
 			.destDimID(new Identifier(MOD_ID, "deepdark"))

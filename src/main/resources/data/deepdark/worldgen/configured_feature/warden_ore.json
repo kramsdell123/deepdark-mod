@@ -1,7 +1,7 @@
 {
     "type": "minecraft:ore",
     "config": {
-      "discard_chance_on_air_exposure": 0.0,
+      "discard_chance_on_air_exposure": 100.0,
       "size": 6,
       "targets": [
         {
@@ -9,17 +9,8 @@
             "Name": "deepdark:warden_ore"
           },
           "target": {
-            "predicate_type": "minecraft:tag_match",
-            "tag": "minecraft:stone_ore_replaceables"
-          }
-        },
-        {
-          "state": {
-            "Name": "deepdark:deepslate_warden_ore"
-          },
-          "target": {
-            "predicate_type": "minecraft:tag_match",
-            "tag": "minecraft:deepslate_ore_replaceables"
+            "block": "minecraft:sculk",
+            "predicate_type": "minecraft:block_match"
           }
         }
       ]

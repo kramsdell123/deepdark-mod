@@ -21,7 +21,8 @@
         }
       },
       {
-        "type": "minecraft:biome"
+        "type": "minecraft:biome",
+        "biome": "deepdark:deep_dark_dimension"
       }
     ]
   }

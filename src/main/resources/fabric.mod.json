@@ -22,6 +22,9 @@
 		],
 		"fabric-datagen": [
 			"com.deepdark.deepdarkDataGenerator"
+		],
+		"terrablender": [
+			"com.deepdark.world.biome.ModTerrablenderApi"
 		]
 	},
 	"mixins": [
