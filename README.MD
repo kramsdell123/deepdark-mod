@@ -50,6 +50,8 @@ or this:
 
 * Wait for it to say "BUILD SUCCESSFUL"
 
+* Close and reopen visual studio code.
+
 * Click terminal at the top of the terminal window.
 
 * In the terminal, type ".\gradlew vscode"
