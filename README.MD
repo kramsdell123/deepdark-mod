@@ -58,4 +58,4 @@ or this:
 
 * On the left there should be 7 icons, click the one in the middle.
 
-* Next to "Minecraft Client" click the play button looking thing.
+* Next to "Minecraft Client" click the run button.
