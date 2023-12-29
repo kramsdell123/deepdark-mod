@@ -1,4 +1,4 @@
-This is my unfinished Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the license.
+This is my unfinished Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the [license](LICENSE).
 
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/preview.png)
 
@@ -26,7 +26,7 @@ or this:
 
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/warden_axe.png)
 
-# How to play it (if you dont know how)
+# Installation
 
 #### Only play this if you actually paid for [Minecraft](https://minecraft.net).
 
