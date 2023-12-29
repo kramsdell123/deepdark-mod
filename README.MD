@@ -28,13 +28,13 @@ or this:
 
 # How to play it (if you dont know how)
 
-#### Only play this if you actually paid for [Minecraft](minecraft.net).
+#### Only play this if you actually paid for [Minecraft](https://minecraft.net).
 
 * Click on code then download zip.
 
 * Extract the zip and put the folder somewhere.
 
-* Download [Visual Studio Code](code.visualstudio.com) and open it.
+* Download [Visual Studio Code](https://code.visualstudio.com) and open it.
 
 * Press ctrl+k and then ctrl+o.
 
