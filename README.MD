@@ -25,3 +25,37 @@ This is unfinished, there is a lot of vanilla textures for placeholders, and a b
 or this:
 
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/warden_axe.png)
+
+# How to play it (if you dont know how)
+
+#### Only play this if you actually paid for [Minecraft](minecraft.net).
+
+* Click on code then download zip.
+
+* Extract the zip and put the folder somewhere.
+
+* Download [Visual Studio Code](code.visualstudio.com) and open it.
+
+* Press ctrl+k and then ctrl+o.
+
+* Select the folder you got from extracting the zip.
+
+* Tell it you trust this project.
+
+* Click Terminal at the top and then click New Terminal.
+
+* In the window that appears at the bottom, click output, on the top of that window.
+
+* In the top right of the terminal window, change tasks to gradle for java.
+
+* Wait for it to say "BUILD SUCCESSFUL"
+
+* Click terminal at the top of the terminal window.
+
+* In the terminal, type ".\gradlew vscode"
+
+* Wait for it to say "BUILD SUCCESSFUL" again.
+
+* On the left there should be 7 icons, click the one in the middle.
+
+* Next to "Minecraft Client" click the play button looking thing.
