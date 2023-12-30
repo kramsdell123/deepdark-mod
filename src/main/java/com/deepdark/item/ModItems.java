@@ -26,6 +26,9 @@ public class ModItems {
     public static final Item deactivated_warden_axe = registerItem("deactivated_warden_axe", 
         new Item(new FabricItemSettings().maxCount(1)));
 
+    public static final Item deactivated_warden_sword = registerItem("deactivated_warden_sword", 
+        new Item(new FabricItemSettings().maxCount(1)));
+
 
     public static final Item warden_pickaxe = registerItem("warden_pickaxe", 
         new PickaxeItem(ModToolMaterial.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
