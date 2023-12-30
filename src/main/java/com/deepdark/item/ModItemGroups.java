@@ -25,6 +25,7 @@ public class ModItemGroups {
         entries.add(ModItems.warden_hoe);
         entries.add(ModItems.deactivated_warden_pickaxe);
         entries.add(ModItems.deactivated_warden_axe);
+        entries.add(ModItems.deactivated_warden_sword);
         entries.add(ModItems.warden_helmet);
         entries.add(ModItems.warden_chestplate);
         entries.add(ModItems.warden_leggings);

@@ -1,7 +1,6 @@
 {
     "item.deepdark.warden_scales": "Warden Scales",
     "item.deepdark.wardens_heart": "Warden's Heart",
-
     "item.deepdark.warden_pickaxe": "Warden Pickaxe",
     "item.deepdark.warden_axe": "Warden Axe",
     "item.deepdark.warden_sword": "Warden Sword",
@@ -11,12 +10,10 @@
     "item.deepdark.warden_chestplate": "Warden Chestplate",
     "item.deepdark.warden_leggings": "Warden Leggings",
     "item.deepdark.warden_boots": "Warden Boots",
-
     "item.deepdark.deactivated_warden_pickaxe": "Deactivated Warden Pickaxe",
     "item.deepdark.deactivated_warden_axe": "Deactivated Warden Axe",
-
+    "item.deepdark.deactivated_warden_sword": "Deactivated Warden Sword",
     "block.deepdark.warden_ore": "Warden Ore",
     "block.deepdark.deepslate_warden_ore": "Deepslate Warden Ore",
-
     "itemgroup.deepdark": "Deep Dark Dimension Items"
 }
