@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup deepdark_group = Registry.register(Registries.ITEM_GROUP, 
-    new Identifier(deepdark.MOD_ID, "deepdark_group"),
-    FabricItemGroup.builder().displayName(Text.translatable("itemgroup.deepdark"))
+        new Identifier(deepdark.MOD_ID, "deepdark_group"),
+        FabricItemGroup.builder().displayName(Text.translatable("itemgroup.deepdark"))
     .icon(() -> new ItemStack(Blocks.SCULK_SENSOR)).entries((displayContext, entries) -> {
         entries.add(ModItems.warden_scales);
         entries.add(ModItems.wardens_heart);

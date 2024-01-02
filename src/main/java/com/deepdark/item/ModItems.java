@@ -1,6 +1,8 @@
 package com.deepdark.item;
 
 import com.deepdark.deepdark;
+import com.deepdark.item.types.WardenArmorItem;
+
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
@@ -48,16 +50,16 @@ public class ModItems {
 
 
     public static final Item warden_helmet = registerItem("warden_helmet", 
-        new ArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+        new WardenArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_chestplate = registerItem("warden_chestplate", 
-        new ArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+        new WardenArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_leggings = registerItem("warden_leggings", 
-        new ArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
+        new WardenArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_boots = registerItem("warden_boots", 
-        new ArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
+        new WardenArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
 
         
 

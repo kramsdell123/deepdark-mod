@@ -14,6 +14,6 @@
     "item.deepdark.deactivated_warden_axe": "Deactivated Warden Axe",
     "item.deepdark.deactivated_warden_sword": "Deactivated Warden Sword",
     "block.deepdark.warden_ore": "Warden Ore",
-    "block.deepdark.deepslate_warden_ore": "Deepslate Warden Ore",
+    "effect.deepdark.warden_power": "Warden Power",
     "itemgroup.deepdark": "Deep Dark Dimension Items"
 }

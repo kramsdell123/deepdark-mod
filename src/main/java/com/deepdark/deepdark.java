@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 
 import com.deepdark.block.ModBlocks;
+import com.deepdark.entity.effect.ModStatusEffects;
 import com.deepdark.item.ModItemGroups;
 import com.deepdark.item.ModItems;
 import com.deepdark.world.gen.ModWorldGeneration;
@@ -23,6 +24,7 @@ public class deepdark implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModStatusEffects.registerStatusEffects();
 		ModWorldGeneration.generateModWorldGen();
 
 
