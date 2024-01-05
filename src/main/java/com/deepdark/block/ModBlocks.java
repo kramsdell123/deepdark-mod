@@ -1,12 +1,12 @@
 package com.deepdark.block;
 
 import com.deepdark.deepdark;
+import com.deepdark.block.types.WardenOreBlock;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,7 +16,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block warden_ore = registerBlock("warden_ore",
-        new ExperienceDroppingBlock(UniformIntProvider.create(5, 10), FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(30f, 30f)));
+        new WardenOreBlock(UniformIntProvider.create(5, 10), FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(30f, 30f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

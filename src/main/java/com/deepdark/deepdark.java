@@ -4,8 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
-
 import com.deepdark.block.ModBlocks;
+import com.deepdark.entity.ModEntities;
 import com.deepdark.entity.effect.ModStatusEffects;
 import com.deepdark.item.ModItemGroups;
 import com.deepdark.item.ModItems;
@@ -18,15 +18,14 @@ public class deepdark implements ModInitializer {
 	public static final String MOD_ID = "deepdark";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerEntities();
 		ModStatusEffects.registerStatusEffects();
 		ModWorldGeneration.generateModWorldGen();
-
 
 		CustomPortalBuilder.beginPortal()
 			.frameBlock(Blocks.REINFORCED_DEEPSLATE)
