@@ -1,6 +1,7 @@
 package com.deepdark.entity.types;
 
 import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.entity.EntityPose;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -29,6 +30,9 @@ public class WardenBossEntity extends WardenEntity {
         super.tick();
         this.bossBar.setName(this.getDisplayName());
         this.bossBar.clearPlayers();
+        if(this.isInPose(EntityPose.DIGGING) || this.isInPose(EntityPose.EMERGING)) {
+            this.setPose(EntityPose.STANDING);
+        }
         for(PlayerEntity player : this.world.getPlayers()) {
             if(Math.sqrt(
                 (player.getX()-this.getX())*(player.getX()-this.getX())+
