@@ -14,16 +14,17 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
 
     public static final Item warden_scales = registerItem("warden_scales", new Item(new FabricItemSettings()));
 
-    public static final Item wardens_heart = registerItem("wardens_heart", new Item(new FabricItemSettings()));
+    public static final Item wardens_heart = registerItem("wardens_heart", new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
 
 
     public static final Item deactivated_warden_pickaxe = registerItem("deactivated_warden_pickaxe", 
-        new Item(new FabricItemSettings().maxCount(1)));
+        new PickaxeItem(ModToolMaterial.DeactivatedWarden, 1, -2.8f, new FabricItemSettings().maxCount(1)));
 
     public static final Item deactivated_warden_axe = registerItem("deactivated_warden_axe", 
         new Item(new FabricItemSettings().maxCount(1)));

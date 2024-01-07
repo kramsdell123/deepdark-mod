@@ -1,7 +1,6 @@
 package com.deepdark.entity.types;
 
 import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.entity.AnimationState;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -15,13 +14,6 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.world.World;
 
 public class WardenBossEntity extends WardenEntity {
-    public AnimationState idleAnimationStateb = new AnimationState();
-    public AnimationState roaringAnimationStateb = new AnimationState();
-    public AnimationState sniffingAnimationStateb = new AnimationState();
-    public AnimationState emergingAnimationStateb = new AnimationState();
-    public AnimationState diggingAnimationStateb = new AnimationState();
-    public AnimationState attackingAnimationStateb = new AnimationState();
-    public AnimationState chargingSonicBoomAnimationStateb = new AnimationState();
 
     private final ServerBossBar bossBar;
     private final World world;

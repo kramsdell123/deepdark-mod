@@ -14,7 +14,7 @@ import net.minecraft.sound.SoundEvents;
 public enum ModArmorMaterials implements ArmorMaterial {
     Warden("warden", 50, new int[]{23, 28, 26, 23}, 19,
     SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3f, 0.5f,
-    () -> Ingredient.ofItems(ModItems.warden_scales));
+    () -> Ingredient.ofItems(ModItems.wardens_heart));
 
     private final String name;
     private final int durabilityMultiplier;

@@ -6,7 +6,8 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public enum ModToolMaterial implements ToolMaterial {
-    Warden(5, 10000, 300f, 4f, 50, () -> Ingredient.ofItems(ModItems.warden_scales));
+    DeactivatedWarden(5, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(ModItems.warden_scales)),
+    Warden(6, 10000, 300f, 4f, 50, () -> Ingredient.ofItems(ModItems.wardens_heart));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

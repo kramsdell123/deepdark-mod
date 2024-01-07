@@ -2,6 +2,7 @@ package com.deepdark;
 
 import net.fabricmc.api.ModInitializer;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.item.Items;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 import com.deepdark.block.ModBlocks;
@@ -13,6 +14,13 @@ import com.deepdark.world.gen.ModWorldGeneration;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
+
+/**
+ {@link Items}
+ {@link Blocks}
+*/
 
 public class deepdark implements ModInitializer {
 	public static final String MOD_ID = "deepdark";
