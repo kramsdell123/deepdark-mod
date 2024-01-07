@@ -27,10 +27,10 @@ public class ModItems {
         new PickaxeItem(ModToolMaterial.DeactivatedWarden, 1, -2.8f, new FabricItemSettings().maxCount(1)));
 
     public static final Item deactivated_warden_axe = registerItem("deactivated_warden_axe", 
-        new Item(new FabricItemSettings().maxCount(1)));
+        new AxeItem(ModToolMaterial.DeactivatedWarden, -4, 0.0F, new FabricItemSettings().maxCount(1)));
 
     public static final Item deactivated_warden_sword = registerItem("deactivated_warden_sword", 
-        new Item(new FabricItemSettings().maxCount(1)));
+        new SwordItem(ModToolMaterial.DeactivatedWarden, 3, -2.4F, new FabricItemSettings().maxCount(1)));
 
 
     public static final Item warden_pickaxe = registerItem("warden_pickaxe", 

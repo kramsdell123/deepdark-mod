@@ -16,7 +16,15 @@ This is unfinished, there is a lot of vanilla textures for placeholders, and a b
 
 * Look for warden ore, and mine it with a netherite pickaxe.
 
+* Mine three more with a silk touch netherite pickaxe.
+
 * Craft some deactivated tools with warden scales you mine.
+
+* Go back to the portal and mine the corners of it with a deactivated warden pickaxe.
+
+* Summon the warden boss with a structure like the wither's, replace the soul soil with reinforced deepslate, and replace the wither skeleton heads with the warden ore you got from mining with silk touch.
+
+* Defeat the warden boss to get the warden's heart.
 
 * Activate your tools like this:
 
