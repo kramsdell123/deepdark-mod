@@ -79,12 +79,12 @@ public class WardenBossModel<T extends WardenBossEntity> extends SinglePartEntit
       this.setLimbAngles(f, g);
       this.setHeadAndBodyAngles(h);
       this.setTendrilPitches(wardenEntity, h, k);
-      this.updateAnimation(wardenEntity.attackingAnimationState, WardenAnimations.ATTACKING, h);
-      this.updateAnimation(wardenEntity.chargingSonicBoomAnimationState, WardenAnimations.CHARGING_SONIC_BOOM, h);
-      this.updateAnimation(wardenEntity.diggingAnimationState, WardenAnimations.DIGGING, h);
-      this.updateAnimation(wardenEntity.emergingAnimationState, WardenAnimations.EMERGING, h);
-      this.updateAnimation(wardenEntity.roaringAnimationState, WardenAnimations.ROARING, h);
-      this.updateAnimation(wardenEntity.sniffingAnimationState, WardenAnimations.SNIFFING, h);
+      this.updateAnimation(wardenEntity.attackingAnimationStateb, WardenAnimations.ATTACKING, h);
+      this.updateAnimation(wardenEntity.chargingSonicBoomAnimationStateb, WardenAnimations.CHARGING_SONIC_BOOM, h);
+      this.updateAnimation(wardenEntity.diggingAnimationStateb, WardenAnimations.DIGGING, h);
+      this.updateAnimation(wardenEntity.emergingAnimationStateb, WardenAnimations.EMERGING, h);
+      this.updateAnimation(wardenEntity.roaringAnimationStateb, WardenAnimations.ROARING, h);
+      this.updateAnimation(wardenEntity.sniffingAnimationStateb, WardenAnimations.SNIFFING, h);
    }
 
    private void setHeadAngle(float yaw, float pitch) {

@@ -70,7 +70,7 @@ public class WardenOreBlock extends ExperienceDroppingBlock {
                     block3 == Blocks.REINFORCED_DEEPSLATE&&
                     block4 == Blocks.REINFORCED_DEEPSLATE
                 ) {
-                    warden_boss_instance.setPos(center.getX(), center.getY()+5, center.getZ());
+                    warden_boss_instance.setPos(center.getX(), center.getY(), center.getZ());
                     warden_boss_type = warden_boss_instance.getType();
                     world.breakBlock(center, false);
                     world.breakBlock(new BlockPos(center.getX(), center.getY(), center.getZ()-1), false);

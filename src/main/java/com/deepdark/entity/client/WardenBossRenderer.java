@@ -1,6 +1,6 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
 package com.deepdark.entity.client;
 
+import com.deepdark.deepdark;
 import com.deepdark.entity.types.WardenBossEntity;
 
 import net.fabricmc.api.EnvType;
@@ -14,11 +14,11 @@ import net.minecraft.util.math.MathHelper;
 
 @Environment(EnvType.CLIENT)
 public class WardenBossRenderer extends MobEntityRenderer<WardenBossEntity, WardenBossModel<WardenBossEntity>> {
-   private static final Identifier TEXTURE = new Identifier("minecraft", "textures/entity/warden/warden.png");
-   private static final Identifier BIOLUMINESCENT_LAYER_TEXTURE = new Identifier("minecraft", "textures/entity/warden/warden_bioluminescent_layer.png");
-   private static final Identifier HEART_TEXTURE = new Identifier("minecraft", "textures/entity/warden/warden_heart.png");
-   private static final Identifier PULSATING_SPOTS_1_TEXTURE = new Identifier("minecraft", "textures/entity/warden/warden_pulsating_spots_1.png");
-   private static final Identifier PULSATING_SPOTS_2_TEXTURE = new Identifier("minecraft", "textures/entity/warden/warden_pulsating_spots_2.png");
+   private static final Identifier TEXTURE = new Identifier(deepdark.MOD_ID, "textures/entity/warden_boss/warden_boss.png");
+   private static final Identifier BIOLUMINESCENT_LAYER_TEXTURE = new Identifier(deepdark.MOD_ID, "textures/entity/warden_boss/warden_boss_bioluminescent_layer.png");
+   private static final Identifier HEART_TEXTURE = new Identifier(deepdark.MOD_ID, "textures/entity/warden_boss/warden_boss_heart.png");
+   private static final Identifier PULSATING_SPOTS_1_TEXTURE = new Identifier(deepdark.MOD_ID, "textures/entity/warden_boss/warden_boss_pulsating_spots_1.png");
+   private static final Identifier PULSATING_SPOTS_2_TEXTURE = new Identifier(deepdark.MOD_ID, "textures/entity/warden_boss/warden_boss_pulsating_spots_2.png");
 
    public WardenBossRenderer(EntityRendererFactory.Context context) {
       super(context, new WardenBossModel<>(context.getPart(ModModelLayers.warden_boss)), 0.9F);
@@ -42,7 +42,8 @@ public class WardenBossRenderer extends MobEntityRenderer<WardenBossEntity, Ward
    @Override
    public void render(WardenBossEntity mobEntity, float f, float g, MatrixStack matrixStack,
            VertexConsumerProvider vertexConsumerProvider, int i) {
-       matrixStack.scale(4, 6, 2);
+       matrixStack.scale(3, 3, 3);
+       super.render(mobEntity, f, g, matrixStack, vertexConsumerProvider, i);
    }
 
    public Identifier getTexture(WardenBossEntity wardenEntity) {

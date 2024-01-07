@@ -32,12 +32,10 @@ public class WardenBossFeatureRenderer<T extends WardenBossEntity, M extends War
    }
 
    public void render(MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, T wardenEntity, float f, float g, float h, float j, float k, float l) {
-      if (!wardenEntity.isInvisible()) {
-         this.updateModelPartVisibility();
-         VertexConsumer vertexConsumer = vertexConsumerProvider.getBuffer(RenderLayer.getEntityTranslucentEmissive(this.texture));
-         (this.getContextModel()).render(matrixStack, vertexConsumer, i, LivingEntityRenderer.getOverlay(wardenEntity, 0.0F), 1.0F, 1.0F, 1.0F, this.animationAngleAdjuster.apply(wardenEntity, h, j));
-         this.unhideAllModelParts();
-      }
+      this.updateModelPartVisibility();
+      VertexConsumer vertexConsumer = vertexConsumerProvider.getBuffer(RenderLayer.getEntityTranslucentEmissive(this.texture));
+      (this.getContextModel()).render(matrixStack, vertexConsumer, i, LivingEntityRenderer.getOverlay(wardenEntity, 0.0F), 1.0F, 1.0F, 1.0F, this.animationAngleAdjuster.apply(wardenEntity, h, j));
+      this.unhideAllModelParts();
    }
 
    private void updateModelPartVisibility() {

@@ -17,7 +17,7 @@ public class ModEntities {
         Registries.ENTITY_TYPE,
             new Identifier(deepdark.MOD_ID, "warden_boss"),
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, WardenBossEntity::new)
-            .dimensions(EntityDimensions.fixed(1, 1)).build());
+            .dimensions(EntityDimensions.fixed(2, 3)).build());
 
     public static void registerEntities() {
         FabricDefaultAttributeRegistry.register(warden_boss, WardenBossEntity.createWardenBossAttributes());
