@@ -26,10 +26,16 @@ public class ModItemGroups {
         entries.add(ModItems.deactivated_warden_pickaxe);
         entries.add(ModItems.deactivated_warden_axe);
         entries.add(ModItems.deactivated_warden_sword);
+        entries.add(ModItems.deactivated_warden_shovel);
+        entries.add(ModItems.deactivated_warden_hoe);
         entries.add(ModItems.warden_helmet);
         entries.add(ModItems.warden_chestplate);
         entries.add(ModItems.warden_leggings);
         entries.add(ModItems.warden_boots);
+        entries.add(ModItems.deactivated_warden_helmet);
+        entries.add(ModItems.deactivated_warden_chestplate);
+        entries.add(ModItems.deactivated_warden_leggings);
+        entries.add(ModItems.deactivated_warden_boots);
         entries.add(ModBlocks.warden_ore);
     }).build());
     public static void registerItemGroups() {

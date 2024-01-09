@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterials;
+import net.minecraft.item.ArmorMaterials;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 import com.deepdark.block.ModBlocks;
@@ -20,10 +22,11 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Dev References:<br></br>
- * 
  * {@link Items}<br></br>
  * {@link Blocks}<br></br>
- * {@link ToolMaterials}
+ * {@link ToolMaterials}<br></br>
+ * {@link ArmorMaterials}<br></br>
+ * {@link ItemGroups}
 */
 
 public class deepdark implements ModInitializer {

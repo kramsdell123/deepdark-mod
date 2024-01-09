@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_hoe",
+    "pattern": [
+        "DID",
+        "IOI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "I": {
+            "item": "minecraft:iron_hoe"
+        },
+        "O": {
+            "item": "deepdark:deactivated_warden_hoe"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_hoe",
+        "count": 1
+    }
+}

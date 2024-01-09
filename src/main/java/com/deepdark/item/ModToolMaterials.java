@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public enum ModToolMaterial implements ToolMaterial {
+public enum ModToolMaterials implements ToolMaterial {
     DeactivatedWarden(5, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(ModItems.warden_scales)),
     Warden(6, 10000, 300f, 4f, 50, () -> Ingredient.ofItems(ModItems.wardens_heart));
     private final int miningLevel;
@@ -15,7 +15,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient){
+    ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient){
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_sword",
+    "pattern": [
+        "DID",
+        "ISI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_sword"
+        },
+        "I": {
+            "item": "minecraft:iron_sword"
+        },
+        "S": {
+            "item": "deepdark:deactivated_warden_sword"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_sword",
+        "count": 1
+    }
+}

@@ -24,31 +24,49 @@ public class ModItems {
 
 
     public static final Item deactivated_warden_pickaxe = registerItem("deactivated_warden_pickaxe", 
-        new PickaxeItem(ModToolMaterial.DeactivatedWarden, 1, -2.8f, new FabricItemSettings().maxCount(1)));
+        new PickaxeItem(ModToolMaterials.DeactivatedWarden, 1, -2.8f, new FabricItemSettings().maxCount(1)));
 
     public static final Item deactivated_warden_axe = registerItem("deactivated_warden_axe", 
-        new AxeItem(ModToolMaterial.DeactivatedWarden, -4, 0.0F, new FabricItemSettings().maxCount(1)));
+        new AxeItem(ModToolMaterials.DeactivatedWarden, -4, 0.0F, new FabricItemSettings().maxCount(1)));
 
     public static final Item deactivated_warden_sword = registerItem("deactivated_warden_sword", 
-        new SwordItem(ModToolMaterial.DeactivatedWarden, 3, -2.4F, new FabricItemSettings().maxCount(1)));
+        new SwordItem(ModToolMaterials.DeactivatedWarden, 3, -2.4F, new FabricItemSettings().maxCount(1)));
+
+    public static final Item deactivated_warden_shovel = registerItem("deactivated_warden_shovel",
+        new ShovelItem(ModToolMaterials.DeactivatedWarden, 1.5F, -3.0F, new FabricItemSettings().maxCount(1)));
+
+    public static final Item deactivated_warden_hoe = registerItem("deactivated_warden_hoe",
+        new HoeItem(ModToolMaterials.DeactivatedWarden, -4, 0.0F, new FabricItemSettings().maxCount(1)));
 
 
     public static final Item warden_pickaxe = registerItem("warden_pickaxe", 
-        new PickaxeItem(ModToolMaterial.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
+        new PickaxeItem(ModToolMaterials.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_axe = registerItem("warden_axe", 
-        new AxeItem(ModToolMaterial.Warden, 2.5f, 2.5f, new FabricItemSettings().maxCount(1)));
+        new AxeItem(ModToolMaterials.Warden, 2.5f, 2.5f, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_shovel = registerItem("warden_shovel", 
-        new ShovelItem(ModToolMaterial.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
+        new ShovelItem(ModToolMaterials.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_hoe = registerItem("warden_hoe", 
-        new HoeItem(ModToolMaterial.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
+        new HoeItem(ModToolMaterials.Warden, 2, 2f, new FabricItemSettings().maxCount(1)));
 
     public static final Item warden_sword = registerItem("warden_sword", 
-        new SwordItem(ModToolMaterial.Warden, 7, 5f, new FabricItemSettings().maxCount(1)));
+        new SwordItem(ModToolMaterials.Warden, 7, 5f, new FabricItemSettings().maxCount(1)));
 
 
+    public static final Item deactivated_warden_helmet = registerItem("deactivated_warden_helmet",
+        new ArmorItem(ModArmorMaterials.DeactivatedWarden, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+
+    public static final Item deactivated_warden_chestplate = registerItem("deactivated_warden_chestplate",
+        new ArmorItem(ModArmorMaterials.DeactivatedWarden, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+        
+    public static final Item deactivated_warden_leggings = registerItem("deactivated_warden_leggings",
+        new ArmorItem(ModArmorMaterials.DeactivatedWarden, ArmorItem.Type.LEGGINGS, new FabricItemSettings().maxCount(1)));
+
+    public static final Item deactivated_warden_boots = registerItem("deactivated_warden_boots",
+        new ArmorItem(ModArmorMaterials.DeactivatedWarden, ArmorItem.Type.BOOTS, new FabricItemSettings().maxCount(1)));
+        
 
     public static final Item warden_helmet = registerItem("warden_helmet", 
         new WardenArmorItem(ModArmorMaterials.Warden, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));

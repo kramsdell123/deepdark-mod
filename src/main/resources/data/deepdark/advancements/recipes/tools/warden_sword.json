@@ -1,13 +1,13 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_warden_scales": {
+        "has_deactivated_warden_sword": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "deepdark:warden_scales"
+                            "deepdark:deactivated_warden_sword"
                         ]
                     }  
                 ]
@@ -16,23 +16,19 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "deepdark:deactivated_warden_pickaxe"
+                "recipe": "deepdark:warden_sword"
             }
         }
     },
     "requirements": [
         [
-            "has_warden_scales",
+            "has_deactivated_warden_sword",
             "has_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "deepdark:deactivated_warden_pickaxe",
-            "deepdark:deactivated_warden_axe",
-            "deepdark:deactivated_warden_sword",
-            "deepdark:deactivated_warden_shovel",
-            "deepdark:deactivated_warden_hoe"
+            "deepdark:warden_sword"
         ]
     }
 }

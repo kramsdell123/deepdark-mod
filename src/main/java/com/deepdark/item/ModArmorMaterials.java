@@ -12,6 +12,9 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 public enum ModArmorMaterials implements ArmorMaterial {
+    DeactivatedWarden("deactivated_warden", 37, new int[]{3, 6, 8, 3}, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3.0f, 0.2f, () -> Ingredient.ofItems(ModItems.warden_scales)),
+
     Warden("warden", 50, new int[]{23, 28, 26, 23}, 19,
     SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3f, 0.5f,
     () -> Ingredient.ofItems(ModItems.wardens_heart));

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_shovel",
+    "pattern": [
+        "DID",
+        "ISI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "I": {
+            "item": "minecraft:iron_shovel"
+        },
+        "S": {
+            "item": "deepdark:deactivated_warden_shovel"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_shovel",
+        "count": 1
+    }
+}
