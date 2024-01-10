@@ -4,7 +4,7 @@ This is my unfinished Deep Dark Dimension mod! I don't know what your gonna do w
 
 # Note
 
-This is unfinished, there is a lot of vanilla textures for placeholders, and a bunch of missing recipes. Only the pickaxe and the axe are currently craftable.
+This is unfinished, there is a lot of vanilla textures for placeholders.
 
 # Instructions
 
