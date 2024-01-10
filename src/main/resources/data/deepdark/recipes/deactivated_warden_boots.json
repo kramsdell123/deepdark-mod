@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "deactivated_warden_boots",
+    "pattern": [
+        "   ",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "deepdark:warden_scales"
+        }
+    },
+    "result": {
+        "item": "deepdark:deactivated_warden_boots",
+        "count": 1
+    }
+}

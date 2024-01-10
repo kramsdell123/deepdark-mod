@@ -32,7 +32,11 @@
             "deepdark:deactivated_warden_axe",
             "deepdark:deactivated_warden_sword",
             "deepdark:deactivated_warden_shovel",
-            "deepdark:deactivated_warden_hoe"
+            "deepdark:deactivated_warden_hoe",
+            "deepdark:deactivated_warden_helmet",
+            "deepdark:deactivated_warden_chestplate",
+            "deepdark:deactivated_warden_leggings",
+            "deepdark:deactivated_warden_boots"
         ]
     }
 }

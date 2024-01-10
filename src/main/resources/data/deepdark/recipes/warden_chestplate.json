@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_chestplate",
+    "pattern": [
+        "DID",
+        "ICI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "I": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "C": {
+            "item": "deepdark:deactivated_warden_chestplate"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_chestplate",
+        "count": 1
+    }
+}

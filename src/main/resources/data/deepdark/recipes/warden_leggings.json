@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_leggings",
+    "pattern": [
+        "DID",
+        "ILI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "I": {
+            "item": "minecraft:iron_leggings"
+        },
+        "L": {
+            "item": "deepdark:deactivated_warden_leggings"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_leggings",
+        "count": 1
+    }
+}

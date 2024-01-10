@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_helmet",
+    "pattern": [
+        "DID",
+        "IEI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "I": {
+            "item": "minecraft:iron_helmet"
+        },
+        "E": {
+            "item": "deepdark:deactivated_warden_helmet"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_helmet",
+        "count": 1
+    }
+}

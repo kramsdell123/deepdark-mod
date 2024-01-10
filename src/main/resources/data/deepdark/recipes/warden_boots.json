@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "warden_boots",
+    "pattern": [
+        "DID",
+        "IBI",
+        "DHD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond_boots"
+        },
+        "I": {
+            "item": "minecraft:iron_boots"
+        },
+        "B": {
+            "item": "deepdark:deactivated_warden_boots"
+        },
+        "H": {
+            "item": "deepdark:wardens_heart"
+        }
+    },
+    "result": {
+        "item": "deepdark:warden_boots",
+        "count": 1
+    }
+}
