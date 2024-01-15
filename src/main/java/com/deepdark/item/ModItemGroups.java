@@ -36,6 +36,7 @@ public class ModItemGroups {
         entries.add(ModItems.deactivated_warden_chestplate);
         entries.add(ModItems.deactivated_warden_leggings);
         entries.add(ModItems.deactivated_warden_boots);
+        entries.add(ModItems.warden_boss_spawn_egg);
         entries.add(ModBlocks.warden_ore);
     }).build());
     public static void registerItemGroups() {
