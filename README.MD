@@ -1,10 +1,6 @@
-This is my unfinished Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the [license](LICENSE).
+This is my Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the [license](LICENSE).
 
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/preview.png)
-
-# Note
-
-This is unfinished, there is a lot of vanilla textures for placeholders.
 
 # Instructions
 

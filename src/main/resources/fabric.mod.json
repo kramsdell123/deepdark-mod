@@ -3,7 +3,7 @@
 	"id": "deepdark",
 	"version": "1.0.0",
 	"name": "Deep Dark Dimension",
-	"description": ":)",
+	"description": "A mod that adds a new deep dark dimension, custom tools, a new boss, and more!",
 	"authors": [
 		"kramsdell"
 	],
@@ -35,8 +35,5 @@
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

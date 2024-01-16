@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "deepdark:item/deactivated_warden_axe"
+        "layer0": "deepdark:item/warden_hoe_anim"
     }
 }
