@@ -1,5 +1,17 @@
 This is my Deep Dark Dimension mod! I don't know what your gonna do with this but feel free to play around with it, just remember about the [license](LICENSE).
 
+The downloading instructions are for the dev env, for the jar go to the project on [curseforge](https://www.curseforge.com/minecraft/mc-mods/deep-dark-dimension-kramsdell).
+
+This is how you implement it into a diffrent mod:
+
+```
+modImplementation "curse.maven:deep-dark-dimension-kramsdell-962951:5037668"
+
+// Uncomment the line bellow to include it in your mod
+
+// include "curse.maven:deep-dark-dimension-kramsdell-962951:5037668"
+```
+
 ![p](https://raw.githubusercontent.com/kramsdell123/deepdark-mod/main/images/preview.png)
 
 # Instructions
